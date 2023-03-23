@@ -6,7 +6,7 @@ import {BrowserRouter } from 'react-router-dom'
 function App() {
   useEffect(() => {
     window.addEventListener("load", () => {
-      window.scrollTo(0, 0);
+      window.scrollTo(0, 1);
     });
   }, []);
 
